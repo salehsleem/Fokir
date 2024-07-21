@@ -29,6 +29,107 @@ h1 {
     color: #FF305B;
     font-weight: bold;
 }
+.homeContent p::after {
+    content: "";
+    animation: typing 3s ease-in-out infinite alternate;
+
+}
+@keyframes typing {
+    0% {
+        content: "|";
+    }
+    3% {
+        content: "D|";
+    }
+
+    6% {
+        content: "De|";
+    }
+
+    9% {
+        content: "Des|";
+    }
+
+    12% {
+        content: "Desi|";
+    }
+
+    15% {
+        content: "Desig|";
+    }
+
+    18% {
+        content: "Design|";
+    }
+
+    21% {
+        content: "Designe|";
+    }
+
+    24% {
+        content: "Designer|";
+    }
+
+    40% {
+        content: "Designer|";
+    }
+
+    43% {
+        content: "Designe|";
+    }
+
+    46% {
+        content: "Design|";
+    }
+    49%{
+        content: "Desig|";
+    }
+    52%{
+        content: "Desi|";
+    }
+    55%{
+        content: "Des|";
+    }
+    58%{
+        content: "De|";
+    }
+    61%{
+        content: "D|";
+    }
+    64%{
+        content: "|";
+    }
+    67%{
+        content: "D|";
+    }
+    71%{
+        content: "De|";
+    }
+    74%{
+        content: "Dev|";
+    }
+    77%{
+        content: "Deve|";
+    }
+    80%{
+        content: "Devel|";
+    }
+    83%{
+        content: "Develo|";
+    }
+    86%{
+        content: "Develop|";
+    }
+    89%{
+        content: "Develope|";
+    }
+    92%{
+        content: "Developer|";
+    }
+    100%{
+        content: "Developer|";
+    }
+} 
 .borderProfile {
     border: 10px solid #555555;
     border-radius: 5px;
@@ -41,7 +142,7 @@ h1 {
 .topMargin {
     position: absolute;
     top: 100%;
-    left:0 %;
+    left:0 ;
     display: flex;
     justify-content: center;
     align-items: center;
