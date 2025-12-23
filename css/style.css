@@ -1,0 +1,307 @@
+* {
+    scroll-behavior: smooth !important;
+}
+
+body,
+html {
+    scroll-behavior: unset !important;
+}
+
+.navbar ul li a:hover {
+    color: #FF305B !important;
+    transition: all 0.1s;
+}
+
+.navbar-brand {
+    color: #FF305B;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.navbar-brand:hover {
+    color: #FF305B;
+}
+
+.homeSection {
+    background-image: url("../img/slider/slider-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+    font-size: 75px;
+    color: #FF305B;
+    font-weight: bold;
+}
+
+.borderProfile {
+    border: 10px solid #555555;
+    border-radius: 5px;
+}
+
+.picture {
+    transform: translateX(7%) translateY(7%);
+    position: relative;
+    overflow: hidden;
+}
+
+.topMargin {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.topMargin a i:hover {
+    color: #FF305B !important;
+    transition: all 0.1s;
+}
+
+.picture:hover .topMargin {
+    opacity: 1;
+    transform: translateY(-100%);
+    transition: all 1s;
+}
+
+.aboutInfo h2 {
+    position: relative;
+}
+
+.aboutInfo h2::before {
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 25px;
+    left: -1.5%;
+    top: 17%;
+    background-color: #FF305B;
+}
+
+.aboutInfo p {
+    color: #7E7E7E;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    padding-top: 15px;
+    border-bottom: dashed #7E7E7E 1px;
+}
+
+.info span {
+    color: #7E7E7E;
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+
+.info p {
+    color: black;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.btns button {
+    background-color: #FF305B;
+    color: white;
+    border: none;
+    padding: 7px 15px;
+    font-size: 1.1rem;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.btns button:hover {
+    background-color: rgb(229, 64, 5);
+}
+
+.h2header {
+    position: relative;
+    padding: 20px 0;
+}
+
+.h2header::after {
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 1px;
+    top: 119%;
+    left: 44.5%;
+    background-color: #FF305B;
+}
+
+.h2header::before {
+    content: "";
+    position: absolute;
+    width: 75px;
+    height: 11px;
+    top: 114%;
+    left: 47%;
+    border-top: #FF305B 1px solid;
+    border-bottom: 1px #FF305B solid;
+}
+
+.sevicesContent i {
+    color: #FF305B;
+    font-size: 25px;
+}
+
+.sevicesContent h2 {
+    font-size: 25px;
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.sevicesContent p {
+    font-size: 18px;
+    color: #7E7E7E;
+}
+
+.sevicesContent:hover {
+    background-color: white;
+    transition: all 0.3s;
+}
+
+.list a:hover {
+    color: #FF305B !important;
+    transition: all 0.1s;
+}
+
+.contentPortfolio {
+    position: relative;
+}
+
+.infoPortfolioLayer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.infoPortfolioLayer i {
+    color: #FF305B;
+}
+
+.contentPortfolio .infoPortfolioLayer:hover {
+    opacity: 1;
+    transition: all 1s ease-in-out;
+}
+
+.contentinservices i {
+    color: #FF305B;
+    font-size: 30px;
+}
+
+.contentinservices h3 {
+    color: black;
+    font-weight: bolder;
+    padding-top: 15px;
+}
+
+.contentinservices p {
+    color: #7E7E7E;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.testmonial .container {
+    border-radius: 5px;
+}
+
+.imgtest img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.stars {
+    color: orange;
+}
+
+.contenttestmo {
+    color: #7E7E7E;
+}
+
+.contentblogimg p {
+    font-size: 18px;
+    color: #7E7E7E;
+}
+
+.contentblogimg a:hover {
+    color: #FF305B !important;
+    transition: all 0.1s;
+}
+
+.contact .container {
+    width: 60%;
+}
+
+.contact .container input {
+    border: 0.5px solid rgb(43, 43, 43);
+    padding: 7px 0px 7px 10px;
+    border-radius: 5px;
+}
+
+textarea {
+    border: 0.5px solid rgb(43, 43, 43);
+    border-radius: 5px;
+}
+
+.btnEnd {
+    padding: 7px 20px;
+    border: none;
+    color: white;
+    background-color: #FF305B;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.btnEnd:hover {
+    background-color: orangered;
+}
+
+footer {
+    background-color: #333333;
+}
+
+.iconEnd i:hover {
+    color: #FF305B !important;
+}
+
+.endAncor {
+    color: #FF305B;
+    text-decoration: none;
+}
+
+.endAncor:hover {
+    text-decoration: underline;
+}
+
+.arrowTop {
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: none;
+    z-index: 999999999;
+}
